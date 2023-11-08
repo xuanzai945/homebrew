@@ -1,1 +1,37 @@
-
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "xuanzaiCondition",
+				"abbreviation": "Brew",
+				"full": "xuanzailimit",
+				"authors": [
+					"xuanzai"
+				],
+				"version": "1.0.1",
+				"url": "https://github.com/xuanzai945/homebrew",
+				"targetSchema": "1.1.0"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0,
+		"_dateLastModifiedHash": "17bd750150"
+	},
+	"condition": [
+		{
+			"name": "潮湿",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"生物获得对火焰伤害的抗性。",
+						"生物获得对闪电伤害的易伤。.",
+						"."
+					]
+				}
+			],
+			"source": "GiddyCondition",
+			"page": 451
+		}
+	]
+}
